@@ -1,0 +1,22 @@
+{
+	"name": "dabl/stringformat",
+	"description": "Helpful collection of string formatters",
+	"license": "MIT",
+	"keywords": ["database", "abstraction", "orm", "propel", "dabl", "sql", "query"],
+	"authors": [
+		{
+			"name": "Manifest Web Design",
+			"email": "dan@manifestwebdesign.com"
+		}
+	],
+	"require": {
+	},
+	"require-dev": {
+		"phpunit/phpunit": "4.8.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Dabl\\StringFormat\\": "src"
+		}
+	}
+}
